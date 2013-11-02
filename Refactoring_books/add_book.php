@@ -47,7 +47,7 @@ if ($_POST) {
 
 $data['authors'] = getAuthors($db);
     if ($data['authors'] === false) {
-        echo 'грешка';
+        $data['msg'] = 'грешка';
         ///TODO        
     }
 
