@@ -1,0 +1,70 @@
+/** body */
+body{
+    background-color: lightgray;
+}
+
+/** header */
+header
+{
+	text-align:center;
+}
+
+/** navigation */
+ nav ul
+{
+	list-style-type:none;
+	display:block;	
+}
+
+ nav ul li
+{
+	float:left;
+	margin: 5px;
+	padding:5px;
+}
+ nav ul:after
+{
+	clear:both;
+	display:block;
+	content:"";
+}
+
+/** content */
+ section
+{
+	display:block;
+	width:100%;
+        alignment-baseline: central;
+}
+
+section table{
+    width:80%;
+}
+
+section table,th, tr, td{
+    border: solid black;
+    margin: auto;
+    padding: auto;
+}
+
+thead{
+    background-color: #00ffff;
+}
+
+form {
+display: block;
+margin-top: 0em;
+margin-bottom: 1em;
+margin-left: 8em;
+}
+
+.msg {
+margin: auto;
+margin-bottom: 1em;
+text-align: center;
+color: red;
+}
+
+div select{
+    width: 200px;
+}
